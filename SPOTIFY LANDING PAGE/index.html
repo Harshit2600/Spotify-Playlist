@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Spotify Music App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+            <nav>
+                        <ul>
+                            <li class="Brand"><img src="spotify logo.png" alt="logo">Spotify</li>
+                            <li>Home</li>
+                            <li>About</li>
+                        </ul>
+            </nav>
+            <div class="container">
+                <div class="songlist">
+                    <h1>SPOTFY PLAYLIST</h1>
+                    <div class="songitemcontainer">
+                        <div class="songitem">
+                            <img src="husn.jpeg" alt="1">
+                            <span class="songName">Husn</span>
+                            <span class="songlistplay"><span class="timestamp">03.37<i id="0" class="far songItemPlay fa-play-circle"></i></span></span>
+                        </div>
+                        <div class="songitem">
+                            <img src="meribaatonmeintu.jpeg" alt="2">
+                            <span class="songName">Meri Baaton Mein Tu</span>
+                            <span class="songlistplay"><span class="timestamp">03.34<i id="1" class="far songItemPlay  fa-play-circle"></i></span></span>
+                        </div>
+                        <div class="songitem">
+                            <img src="waqt ki baatein.jpg" alt="3">
+                            <span class="songName">Waqt Ki Baatein</span>
+                            <span class="songlistplay"><span class="timestamp">04.02<i id="2" class="far songItemPlay  fa-play-circle"></i></span></span>
+                        </div>
+                        <div class="songitem">
+                            <img  src="Heeriye.jpg" alt="4">
+                            <span class="songName">Heeriye</span>
+                            <span class="songlistplay"><span class="timestamp">03.16<i id="3" class="far songItemPlay  fa-play-circle"></i></span></span>
+                        </div>
+                        <div class="songitem">
+                            <img src="love you zindagi.jpg" alt="5">
+                            <span class="songName">Love You Zindagi</span>
+                            <span class="songlistplay"><span class="timestamp">03.34<i id="4" class="far songItemPlay  fa-play-circle"></i></span></span>
+                        </div>
+                        <div class="songitem">
+                            <img src="Sajni.jpg" alt="6">
+                            <span class="songName">Sajni</span>
+                            <span class="songlistplay"><span class="timestamp">02.51<i id="5" class="far songItemPlay  fa-play-circle"></i></span></span>
+                        </div>
+                        <div class="songitem">
+                            <img src="kun faya kun.jpg" alt="7">
+                            <span class="songName">Kun Faya Kun</span>
+                            <span class="songlistplay"><span class="timestamp">07.53<i id="6" class="far songItemPlay  fa-play-circle"></i></span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="songbanner"></div>
+            </div>
+
+            <div class="bottom">
+                <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+                <div class="icons">
+                    <!--fontawesome icons-->
+                    <i class="fas fa-3x fa-fast-backward" id="previous"></i>
+                    <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+                    <i class="fas fa-3x fa-fast-forward" id="next"></i>
+                </div>
+                <div class="songinfo">
+                    <img src="giphy.gif" width="20px" alt="" id="gif"><span id="masterSongName"></span>
+                </div>
+            </div>
+        
+            <script src="https://kit.fontawesome.com/10bab8cf17.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
